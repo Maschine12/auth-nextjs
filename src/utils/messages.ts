@@ -6,9 +6,15 @@ export const messages = {
         emailNotValid: "Email no valido",
         default: "Ocurrio un error",
         userNotFound: "Usuario no encontrado",
-        incorrectPassword: "Contraseña incorrecta"
+        incorrectPassword: "Contraseña incorrecta",
+        notAuthorized:"No autorizado",
+        tokenInvalid:"Token invalido",
+        needToken:"Data Token no existe "
     },
     success: {
-        userCreated: "Usuario creado correctamente"
+        userCreated: "Usuario creado correctamente",
+        userLogged:"Que bueno verte de vuelta",
+        emailSend:"Correo enviado correctamente",
+        passwordChanged:"Contraseña cambiada correctamente",
     }
 }
