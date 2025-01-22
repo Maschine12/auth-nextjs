@@ -50,7 +50,6 @@ export async function POST(request: NextRequest) {
             const { data } = (isTokenValid as any)?.data;
             const userFind = await User.findById(data.userId);
 
-
             if (!data || !data.userId) {
                 return NextResponse.json(
                     {
