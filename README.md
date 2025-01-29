@@ -1,6 +1,9 @@
 Este es un proyecto
- [Next.js](https://nextjs.org) 
-iniciado con [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create- next app).
+[Next.js](https://nextjs.org) 
+iniciado con este comando para crear tu aplicacion de nextjs
+create-next-app
+
+(https://nextjs.org/docs/app/api-reference/cli/create- next app).
 
 ## Empezando
 
@@ -18,7 +21,7 @@ bun dev
 
 Copie el link:
 
-http://localhost:3000](http://localhost:3000
+http://localhost:3000
 
 con su navegador para ver el resultado.
 
