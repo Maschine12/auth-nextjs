@@ -1,9 +1,10 @@
 "use client"
 import { createContext, useState } from "react"
 import styles from "./styles.module.scss"
-import { Input } from "./components/input"
+import { Input } from "./components/Input"
+import { Footer } from "./components/Footer"
 
-type FormValues = Record<string, string>
+type FormValues = Record<string , string>
 
 interface FormContextType {
     formValues: FormValues
@@ -41,3 +42,4 @@ export function Form({ title, children, onSubmit, description }: FormProps) {
 }
 
 Form.Input = Input
+Form.Footer = Footer
